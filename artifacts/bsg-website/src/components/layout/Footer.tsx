@@ -9,9 +9,9 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <img
-                src={`${import.meta.env.BASE_URL}images/logo.png`}
+                src={`${import.meta.env.BASE_URL}images/bsg-logo.png`}
                 alt="BSG Logo"
-                className="h-10 w-10 object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-80"
+                className="h-12 w-12 object-contain hover:scale-105 transition-all duration-300"
               />
               <div>
                 <h3 className="font-display font-bold text-xl text-foreground">

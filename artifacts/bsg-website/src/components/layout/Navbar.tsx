@@ -43,9 +43,9 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <img
-              src={`${import.meta.env.BASE_URL}images/logo.png`}
+              src={`${import.meta.env.BASE_URL}images/bsg-logo.png`}
               alt="BSG Logo"
-              className="h-10 w-10 object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-12 w-12 object-contain transition-transform duration-300 group-hover:scale-105"
             />
             <div className="flex flex-col">
               <span className="font-display font-bold text-xl leading-none tracking-tight text-primary">
