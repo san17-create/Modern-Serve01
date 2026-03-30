@@ -1,0 +1,23 @@
+packages:
+  "framer-motion": "For smooth page transitions, entry animations, and scroll reveals to create a premium feel"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to safely merge Tailwind classes without style conflicts"
+
+images:
+  - path: "artifacts/bsg-website/public/images/hero-bg.png"
+    description: "Soft abstract gradient mesh background in warm cream, soft sage green, and muted terracotta with subtle organic textures, very light and minimal"
+    aspect_ratio: "16:9"
+  - path: "artifacts/bsg-website/public/images/logo.png"
+    description: "Minimalist modern geometric logo mark for a nonprofit, featuring stylized hands holding a sprouting leaf, deep sage green on transparent background"
+    aspect_ratio: "1:1"
+  - path: "artifacts/bsg-website/public/images/community.png"
+    description: "Warm minimalist vector illustration of diverse people collaborating and building a community, soft earth tones, clean lines, professional editorial style"
+    aspect_ratio: "16:9"
+  - path: "artifacts/bsg-website/public/images/education.png"
+    description: "Warm minimalist vector illustration of students learning, books, and graduation elements, soft earth tones, clean lines, professional editorial style"
+    aspect_ratio: "4:3"
+
+notes:
+  - This is a static informational website for a nonprofit, no complex backend API integration is required initially.
+  - Using framer-motion for high-quality interactions and reveals.
+  - Wouter is used for routing. All external links use standard <a> tags with target="_blank".
